@@ -33,6 +33,10 @@ p {
   padding: 8px 20px;
 }
 
+.btn_primary:hover {
+  color:  #006aff;
+}
+
 .btn_mobile {
   background-color: transparent;
 }
@@ -63,7 +67,7 @@ p {
 }
 
 .main-nav li {
-  margin-right: 25px;
+  margin-left: 10px;
 }
 
 .main-nav  li a, .secondary-nav li a {
@@ -73,7 +77,7 @@ p {
   font-weight: 600;
 }
 
-.main-nav li a:hover {
+.main-nav li a:hover, .secondary-nav li a:hover {
   text-decoration: none;
 }
 /* /nav */
@@ -82,15 +86,75 @@ p {
   margin-top: 65px;
   background-image: url(../img/bg-hero.svg);
   background-size: cover;
-  color: #fff
+  color: #fff;
+  padding: 60px 0;
+}
+
+.hero_title p {
+  opacity: 0.8;
 }
 
 .hero p {
   font-size: 24px;
   line-height: 150%;
-  color: #fff
-
+  color: #fff;
 }
 
 
+
+.box-hero {
+  background-color: #fff;
+  color: #006;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.box-hero p {
+  color: #5b6987;
+  font-size: 16px;
+}
+
+.btn_blue {
+  border-radius: 5px;
+  border: 1px solid #006aff;
+  background-color: #006aff;
+  opacity: 0.8;
+  color: #fff;
+  padding: 5px 0;
+  box-shadow: 1px 1px lightgrey;
+  margin-bottom: 10px;
+
+}
+
+.box-hero h2 h3 {
+  font-weight: bold;
+}
+
+.box-hero h3 {
+  color: #006aff;
+}
+
+.btn_white {
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #006;
+  opacity: 0.8;
+  padding: 5px 0;
+  box-shadow: 1px 1px lightgrey;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.btn_white img {
+  width: 18px;
+  position: absolute;
+  left: 10px;
+}
 /* /Hero */
+
+@media screen and (max-width:1200) {
+  .main-nav li a {
+    width: 30px;
+  }
+}
