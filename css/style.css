@@ -152,7 +152,26 @@ p {
   left: 10px;
 }
 /* /Hero */
+/* main */
+/* sponsor */
+#sponsor {
+  background-color: #f3f5f9;
+  padding: 30px 0;
+}
 
+#sponsor h5 {
+  text-align: uppercase;
+  color: #031b4e;
+  margin-bottom: 30px;
+}
+
+#sponsor p {
+  color: #0069ff;
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* /sponsor */
+/* /main */
 @media screen and (max-width:1200) {
   .main-nav li a {
     width: 30px;
