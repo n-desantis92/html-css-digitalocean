@@ -173,7 +173,5 @@ p {
 /* /sponsor */
 /* /main */
 @media screen and (max-width:1200) {
-  .main-nav li a {
-    width: 30px;
-  }
+
 }
