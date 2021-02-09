@@ -202,6 +202,7 @@ p {
 
 .details {
   height: 220px;
+  padding-top: 10px;
 }
 
 .details h5 {
@@ -220,6 +221,9 @@ p {
 }
 /* /main_top */
 /* /main */
-@media screen and (max-width:1200) {
-
+@media screen and (max-width: 768px) {
+.details {
+  height: 160px;
+  padding-left: 55px;
+}
 }
