@@ -9,8 +9,16 @@ h1 {
   line-height: 120%;
 }
 
+h2 {
+  color: #031b4e;
+}
+
+h2 h3 {
+  font-weight: bold;
+}
+
 p {
-  color: #212529;
+  color: #031b4e;
   font-weight: 400;
   font-size: 20px;
 }
@@ -126,10 +134,6 @@ p {
 
 }
 
-.box-hero h2 h3 {
-  font-weight: bold;
-}
-
 .box-hero h3 {
   color: #006aff;
 }
@@ -175,9 +179,7 @@ p {
 .main_header {
   padding: 60px 0;
 }
-.main_top h2 {
-  color: #031b4e;
-}
+
 .main_top p {
   color: #5b6987;
   font-size: 20px;
@@ -220,6 +222,74 @@ p {
   margin-bottom: 20px;
 }
 /* /main_top */
+/* main-grey */
+.main-grey {
+background-color: #f3f5f9;
+padding: 50px 0;
+}
+.main-grey p {
+  padding: 15px 0;
+}
+.main-grey img {
+  width: 50%;
+  padding: 20px;
+}
+
+i.angle {
+  font-size: 50px;
+  color: #5b6987;
+}
+
+.main-grey button {
+  border: none;
+  background-color: transparent;
+}
+
+i.page {
+  font-size: 12px;
+}
+
+i.page:hover {
+  background-color: #006aff;
+  border-radius: 50%;
+}
+
+/* /main-grey */
+/* main-center-white */
+#m-center-white {
+  padding: 50px 0;
+}
+#m-center-white h2 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+#m-center-white img {
+  width: 48px;
+}
+
+#m-center-white h5 {
+  color: #031b4e;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+  margin-top: 25px;
+}
+#m-center-white p {
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+}
+
+#m-center-white a {
+  text-decoration: none;
+  color: #0069ff;
+  font-size: 16px;
+}
+#m-center-white i {
+  font-size: 16px;
+  vertical-align: middle;
+}
+/* /main-center-white */
 /* /main */
 @media screen and (max-width: 768px) {
 .details {
