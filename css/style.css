@@ -171,6 +171,54 @@ p {
   margin-top: 20px;
 }
 /* /sponsor */
+/* main_top */
+.main_header {
+  padding: 60px 0;
+}
+.main_top h2 {
+  color: #031b4e;
+}
+.main_top p {
+  color: #5b6987;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.configuration nav ul {
+  list-style-type: none;
+}
+
+.configuration li button {
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #dbdbdb;
+  padding: 15px 20px;
+  color: #363636;
+}
+
+.configuration li button:hover {
+  border-left: 1px solid rgba(3, 27, 78, 1);
+}
+
+.details {
+  height: 220px;
+}
+
+.details h5 {
+  color: #031b4e;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 120%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.details p {
+  color: #5b6987;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+/* /main_top */
 /* /main */
 @media screen and (max-width:1200) {
 
