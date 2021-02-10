@@ -1,5 +1,6 @@
 body {
   font-family: 'Inter', sans-serif;
+  position: relative;
 }
 
 /* typo */
@@ -450,6 +451,50 @@ footer li a {
 }
 /* /footer-top */
 /* /footer */
+/* shark */
+.shark {
+  width: 60px;
+  height: 60px;
+  background-color: #0069ff;
+  border-radius: 5px;
+  padding-top: 5px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 1px 1px #0069ff;
+}
+.shark img {
+  width: 100%;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #fff;
+  border-bottom: 5px solid transparent;
+  position: fixed;
+  right: 90px;
+  bottom: 40px;
+  box-shadow: 1px 1px lightgrey;
+}
+
+.testo-shark {
+  background-color: #fff;
+  width: 350px;
+  position: fixed;
+  right: 95px;
+  bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px lightgrey;
+}
+.testo-shark p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* /shark */
 @media screen and (max-width: 768px) {
 .details {
   height: 160px;
