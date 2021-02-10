@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 /* typo */
@@ -294,6 +294,36 @@ i.page:hover {
   padding: 20px 10px;
 }
 /* /main-center-white */
+/* main-center-blue */
+#m-center-blue {
+  background: #031b4e url(https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+.mb-title h2 {
+  color: white;
+  font-size: 36px;
+  line-height: 110%;
+
+}
+
+.table {
+  color: white;
+}
+.table i {
+  font-size: 13px;
+}
+.senza-bt {
+   border-top: none!important;
+ }
+ .table tbody tr td:last-of-type {
+   text-align: right;
+
+ }
+
+/* /main-center-blue */
 /* /main */
 @media screen and (max-width: 768px) {
 .details {
