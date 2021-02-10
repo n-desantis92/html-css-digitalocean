@@ -132,7 +132,7 @@ p {
   padding: 5px 0;
   box-shadow: 1px 1px lightgrey;
   margin-bottom: 10px;
-
+  cursor: pointer;
 }
 
 .box-hero h3 {
@@ -149,6 +149,7 @@ p {
   box-shadow: 1px 1px lightgrey;
   margin-bottom: 20px;
   position: relative;
+  cursor: pointer;
 }
 
 .btn_white img {
@@ -174,6 +175,11 @@ p {
   color: #0069ff;
   font-size: 15px;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+#sponsor a {
+  text-decoration: none;
 }
 /* /sponsor */
 /* main_top */
@@ -323,6 +329,9 @@ i.page:hover {
    text-align: right;
  }
 
+.table a {
+  text-decoration: none;
+}
 /* /main-center-blue */
 /* main-g */
 #main-g {
@@ -366,9 +375,11 @@ i.page:hover {
 }
 .box-car a {
   font-size: 13px;
+  text-decoration: none;
 }
 .box-car a i {
   font-size: 13px;
+  vertical-align: middle;
 }
 
 .sotto-p {
@@ -381,6 +392,11 @@ i.page:hover {
   width: calc((100% /12) - 4px);
   height: 100%;
   vertical-align: middle;
+}
+
+#main-g button:focus {
+  outline: none;
+  box-shadow: none;
 }
 /* /main-g */
 /* main-bottom */
