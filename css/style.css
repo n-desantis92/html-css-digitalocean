@@ -496,8 +496,30 @@ footer li a {
 
 /* /shark */
 @media screen and (max-width: 768px) {
-.details {
-  height: 160px;
-  padding-left: 55px;
-}
+  .details {
+    height: 160px;
+    padding-left: 55px;
+  }
+
+  .shark {
+    left: 20px;
+    bottom: 120px;
+  }
+
+  .testo-shark {
+    left: 20px;
+    bottom: 20px;
+  }
+
+  .triangle-right {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: fixed;
+    left: 30px;
+    bottom: 93px;
+    box-shadow: 1px 1px lightgrey;
+  }
 }
