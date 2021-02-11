@@ -469,6 +469,7 @@ footer li a {
 /* /footer */
 /* shark */
 .shark {
+  position: relative;
   width: 60px;
   height: 60px;
   background-color: #0069ff;
@@ -481,6 +482,21 @@ footer li a {
 }
 .shark img {
   width: 100%;
+}
+
+.notifica {
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  font-size: 10px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
 }
 
 .triangle-right {
